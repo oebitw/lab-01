@@ -1,0 +1,165 @@
+@media (max-width: 767px){
+    .a, .b, .c, .d{
+        width: 480px;
+        margin:  auto ;
+        background-color: #dddddd;
+        border-right: solid gray 1px;
+        border-left: solid gray 1px;
+        border-bottom: solid gray 1px;
+    }
+
+    .a {
+        height: 75px;
+        border: solid gray 1px;
+        margin-top: 10px;
+    }
+
+    .b{
+        height: 125px;    
+    }
+
+    .c, .d {
+
+        height: 125px;
+
+    }
+
+    .efgh{
+        width: 480px;
+        margin: auto;
+    }
+
+    .e, .f, .g, .h{
+        background-color: #dddddd;
+        height: 250px;
+    }
+
+    .e{
+        float: left;
+    }
+    .f {
+        float: right;
+    }
+    .e, .f{
+        width: 240px;
+    }
+    .g{
+        clear: both;
+        float: left;
+        width: 240px;
+    }
+    .h{
+        float: right;
+        width: 240px;
+    }
+
+    .e, .g{
+        border-right: solid gray 1px;
+        border-left: solid gray 1px;
+        border-bottom: solid gray 1px;
+
+    }
+
+    .f, .h{
+        border-bottom: solid gray 1px;
+        border-right: solid gray 1px;
+
+    }
+
+    .i{
+        clear: both;
+        width: 480px;
+        margin: 0px auto 10px;
+        background-color: #dddddd;
+        height: 80px;
+        border-right: solid gray 1px;
+        border-left: solid gray 1px;
+        border-bottom: solid gray 1px;
+    }
+
+    .largeSize{
+        display: none;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .a{
+        width: 960px;
+        height: 100px;
+        margin: 10px auto 0px;
+        background-color: #7eca9c;
+        border: solid 1px gray;
+    }
+
+    .container{
+
+        width: 960px;
+        height: 600px;
+        margin: auto;
+    }
+
+    .b{
+        width: 200px;
+        height: 600px;
+        background-color: #7eca9c;
+        border-left: solid gray 1px;
+        border-right: solid gray 1px;
+        border-bottom: solid gray 1px;
+        float: left;
+
+    }
+
+    .c, .d {
+        width: 380px;
+        height: 200px;
+        background-color:  #7eca9c;
+        border-right: solid gray 1px;
+        border-bottom: solid gray 1px;
+    }
+
+    .c{
+
+        float: left;
+
+    }
+    .d{
+        float: right;
+    }
+
+
+
+    .e, .f, .g, .h{
+        width: 190px;
+        height: 250px;
+        background-color:  #7eca9c;
+        border-right: solid gray 1px;
+        border-bottom: solid gray 1px;
+        float: left;
+    }
+
+
+
+    .i{
+        float: right;
+
+        width: 760px;
+        height: 150px;
+        background-color:  #7eca9c;
+        border-right: solid gray 1px;
+        border-bottom: solid gray 1px;
+    }
+
+    .smallSize{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
