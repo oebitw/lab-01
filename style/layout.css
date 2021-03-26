@@ -1,3 +1,6 @@
+main{
+    margin: 75px 0;
+}
 @media (max-width: 767px){
     .a, .b, .c, .d{
         width: 480px;
