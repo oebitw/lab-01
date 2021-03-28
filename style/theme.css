@@ -1,0 +1,13 @@
+@media (max-width: 767px){
+    .a, .b, .c, .d,.e, .f, .g, .h, .i{
+        background-color: #dddddd;
+    }
+}
+
+@media (min-width: 768px){
+
+    .a, .b, .c, .d,.e, .f, .g, .h, .i{
+        background-color: #7eca9c;
+    }
+
+}

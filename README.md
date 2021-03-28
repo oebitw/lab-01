@@ -2,14 +2,14 @@
 
 In This Lab I converted the following Wire frame to a responsive web design.
 
-You can visit the website from [**HERE**](https://oebitw.github.io/lab-01/)
+[**LAB01-Deployment-Link**](https://oebitw.github.io/lab-01/)
 
-Desktop View
+## Desktop View
 
 ![](desktop-viewa.png)
 
  ---
 
- Mobile View
+ ## Mobile View
 
  ![](mobile-view.png)
