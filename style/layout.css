@@ -1,7 +1,9 @@
-main{
-    margin: 75px 0;
+.all-content{
+    margin: 100px 0;
 }
+
 @media (max-width: 767px){
+
     .a, .b, .c, .d{
         width: 480px;
         margin:  auto ;
@@ -16,9 +18,12 @@ main{
         margin-top: 10px;
     }
 
+
+
     .b{
         height: 125px;    
     }
+
 
     .c, .d {
 
@@ -26,32 +31,21 @@ main{
 
     }
 
+
+
     .efgh{
         width: 480px;
         margin: auto;
     }
 
-    .e, .f, .g, .h{
-        height: 250px;
+    .ef, .gh{
+        display: grid;
+        grid-template-columns: 240px 240px;
     }
 
-    .e{
-        float: left;
-    }
-    .f {
-        float: right;
-    }
-    .e, .f{
-        width: 240px;
-    }
-    .g{
-        clear: both;
-        float: left;
-        width: 240px;
-    }
-    .h{
-        float: right;
-        width: 240px;
+
+    .e, .f, .g, .h{
+        height: 250px;
     }
 
     .e, .g{
@@ -67,8 +61,9 @@ main{
 
     }
 
+
+
     .i{
-        clear: both;
         width: 480px;
         margin: 0px auto 10px;
         height: 80px;
@@ -77,13 +72,16 @@ main{
         border-bottom: solid gray 1px;
     }
 
+
     .largeSize{
         display: none;
     }
+
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
+
     .a{
         width: 960px;
         height: 100px;
@@ -91,11 +89,15 @@ main{
         border: solid 1px gray;
     }
 
+
+
     .container{
 
         width: 960px;
         height: 600px;
         margin: auto;
+        display: grid;
+        grid-template-columns: 200px 760px;
     }
 
     .b{
@@ -104,57 +106,83 @@ main{
         border-left: solid gray 1px;
         border-right: solid gray 1px;
         border-bottom: solid gray 1px;
-        float: left;
 
     }
 
+
+
+    .cd{
+        display: grid;
+        grid-template-columns: 380px 380px;
+    }
+
     .c, .d {
-        width: 380px;
         height: 200px;
         border-right: solid gray 1px;
         border-bottom: solid gray 1px;
     }
 
-    .c{
 
-        float: left;
+
+    .efgh{
+
+        display: grid;
+        grid-template-columns: 380px 380px;
+
 
     }
-    .d{
-        float: right;
+
+    .ef{
+        display: grid;
+        grid-template-columns: 190px 190px;
     }
 
+    .gh{
 
+        display: grid;
+        grid-template-columns: 190px 190px;
+
+    }
 
     .e, .f, .g, .h{
-        width: 190px;
         height: 250px;
         border-right: solid gray 1px;
         border-bottom: solid gray 1px;
-        float: left;
     }
 
 
 
     .i{
-        float: right;
-
         width: 760px;
         height: 150px;
         border-right: solid gray 1px;
         border-bottom: solid gray 1px;
     }
 
+
+
+
     .smallSize{
         display: none;
     }
+
+    footer{
+        display: flex;
+        height: 100px;
+
+    }
+
+}
+
+
+/* Start My Frame Works */
+
+.text-center{
+    text-align: center;
 }
 
 
 
-
-
-
-
+/* End My Frame Work*/
 
 

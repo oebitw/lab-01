@@ -6,26 +6,24 @@
 
     }
 
-
     .b h1{
 
         margin-top: 33.75px;
-    }
 
+    }
 
     .c h1, .d h1 {
         margin-top: 27.5px ;
     }
 
-
     .e h1, .f h1, .g h1, .h h1{
         margin-top: 99.5px;
     }
 
-
     .i h1{
         margin-top: 12.25px;
     }
+
     .a p, .b p, .c p, .d p, .e p, .f p, .g p, .h p, .i p {
 
         padding-top: 10px;
@@ -34,16 +32,21 @@
     }
 
 
+
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .a h1{
 
         margin-top: 20.625px;
 
     }
 
+    .a p, .b p, .c p, .d p, .e p, .f p, .g p, .h p {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
 
     .b h1{
         margin-top: 285.875px;
@@ -58,23 +61,13 @@
         margin-top: 100px;
     }
 
+    .i p{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
     .i h1{
         margin-top: 42px;
     }
-
-    .a p, .b p, .c p, .d p, .e p, .f p, .g p, .h p, .i p {
-        padding-top: 10px;
-        padding-left: 10px;
-    }
 }
-
-/* Start My Frame Works */
-
-.text-center{
-    text-align: center;
-}
-
-/* End My Frame Work*/
-
-
 
